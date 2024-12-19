@@ -1,0 +1,7 @@
+[
+  { "id": "burger", "name": "Cheeseburger", "price": 8.99, "category": "food" },
+  { "id": "pizza", "name": "Margherita Pizza", "price": 12.99, "category": "food" },
+  { "id": "salad", "name": "Caesar Salad", "price": 7.99, "category": "food" },
+  { "id": "soda", "name": "Cola", "price": 2.49, "category": "beverage" },
+  { "id": "smoothie", "name": "Berry Smoothie", "price": 4.99, "category": "beverage" }
+]

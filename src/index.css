@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-shadow-lg {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Improve text readability */
+input, select, textarea {
+  @apply bg-white font-medium text-gray-800;
+  text-shadow: none !important;
+}
+
+label {
+  @apply font-medium tracking-tight text-gray-700;
+  text-shadow: none !important;
+}
+
+/* Form styles */
+.form-container {
+  @apply bg-white;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+}
+
+.animate-float {
+  animation: float 15s infinite;
+}
+
+.bg-grid-white {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px),
+                    linear-gradient(0deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+}
